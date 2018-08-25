@@ -4,7 +4,7 @@
 import { FETCH_POSTS } from '../actions';
 import _ from 'lodash';
 
-//We want the state to be stored inside of an object. To do this, set state = {} to initialize it as an object type
+//We want the state to be stored inside of an object. To do this, set state = {} to initialize state as an object type
 export default function(state = {}, action) {
 	switch (action.type) {
 	case FETCH_POSTS:
